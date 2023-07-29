@@ -10,14 +10,9 @@ let playerInput = prompt("Select 'Rock', 'Paper', or 'Scissors':");
      }
 
      function getPlayerChoice(playerInput) {
-          /*
-     for (let i = 0; i < playerInput.length; i++) {
-          playerInput[i] = playerInput[i][0].toUpperCase() + playerInput[i].toLowerCase(1);
-      }
-      */
-      playerSelection = playerInput.charAt(0).toUpperCase() + playerInput.slice(1).toLowerCase();
-      return playerSelection;
+          playerSelection = playerInput.charAt(0).toUpperCase() + playerInput.slice(1).toLowerCase();
+          return playerSelection;
      }
      
-console.log(getComputerChoice())
-console.log(getPlayerChoice(playerInput))
+console.log(getComputerChoice());
+console.log(getPlayerChoice(playerInput));
