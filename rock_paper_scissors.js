@@ -3,9 +3,9 @@ let computerSelection;
 let gameArray = ['Rock','Paper','Scissors'];
 
 
-     function getComputerSelection() {
+     function getComputerChoice() {
           let computerSelection = gameArray[Math.floor(Math.random()*gameArray.length)];
           return computerSelection;
      }
      
-console.log(getComputerSelection())
+console.log(getComputerChoice())
